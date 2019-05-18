@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Lottery</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="lottery.css">
+</head>
+<body onload="bodyFunction()">
+		<header id="header">
+			<div id="title">
+				<h1>Win the Lottery</h1>
+			</div>
+			</header>		
+		<section id="amount">	
+			<div>
+				<h2>Amount</h2>
+			</div>
+		</section>	
+		<section id="amount-price">
+		<div>
+			<h2 id="prize">$</h2>
+		</div>
+		</section>
+		<main id="roll">
+				<input type="button" value="Roll" id="roller" onclick="roll()">	
+		</main>	
+		<section id="target">
+			<h3>Your Roll-----</h3>
+			<h3 id="user-choice">123456</h3>
+		</section>
+		<section id="choice">
+			<h3>Target Number-----</h3>
+			<h3 id="target-number">123456</h3>
+		</section>
+		<footer id="footer">
+				<h2>Lottery Prize changes every week!</h2>
+		</footer>	
+	<script type="text/javascript" src="lottery.js"></script>
+</body>
+</html>

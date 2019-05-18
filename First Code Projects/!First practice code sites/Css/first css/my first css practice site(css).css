@@ -1,0 +1,129 @@
+.container {
+	font-family: Arial ;
+	font-size: 16px;
+	background: white;
+}
+
+#KFC {
+	text-transform:uppercase;
+	text-decoration:underline;
+	color:black;
+	font-size:60px;
+	text-align:center;
+	text-shadow:2px 2px red;
+	background:yellow;
+	border: 4px solid;
+    outline: 10px red solid;
+	padding:20px;
+	margin-left: 80px;
+	margin-right: 80px;
+}
+
+#twitter {
+	text-align:right;
+	display:block;
+	margin-left:auto;
+	margin-right:100px;
+	margin-top:-100px;
+	margin-bottom:75px;
+} 
+
+/* study image characteristics */
+/* stufy how to align text more accuratly, how to add links to an image */
+/* study display and position and image hover overlay */
+/* study display and inline*/
+#welcome {
+	color:black;
+	padding:20px;
+	background: yellow;
+	text-align:center;
+	font-weight:bold;
+	font-size: 30px;
+	text-shadow: 2px 3px red;
+	font-family:roboto,arial;
+	margin: 10px 500px;
+	border: brown dotted 10px;
+}
+
+
+
+.logo {
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+	max-width:75%;
+	max-height:auto;
+	width:750px;
+	height:400px;
+	margin-top: -15px;
+	margin-bottom:30px;
+	border-radius:100px;
+}
+
+
+
+.forms {
+	font-size: 20px;
+}
+
+#founder {
+	font-size:55px
+	font-weight:400px;
+	border:4px white solid;
+	outline:5px red solid;
+	text-align: center;
+	margin: 10px 400px;
+	padding: 20px;
+	background:black;
+	color:white;
+}
+/* stufy padding sizes */
+
+.rock {
+	display:block;
+	margin-left: auto;
+	margin-right: auto;
+	border: 15px black solid;
+	margin-top: 100px;
+	width:400px;
+	height:300px;
+}
+
+.footer {
+	background:red;
+}
+
+.footer-links a { 
+	margin-left:1000px;
+	font-size: 23px;
+	list-style: none;
+	color: black;
+	text-decoration: none;
+	line-height: 2em;
+	
+}
+
+.footer ul {
+	list-style: none;
+	
+}
+
+.plop {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+a:hover {
+	background:white;
+
+}
+
+#table {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+/* study tables properties*/
+

@@ -1,0 +1,56 @@
+function myFunction() {
+  document.getElementById("h1").innerHTML = "Goodbye world";
+  	}
+
+function changeBackground()
+ {
+	document.getElementById("body").style.background = "red";
+}  	
+
+function Hello() {
+	document.getElementById("h1").style.background = "red";
+	document.getElementById("h1").style.color = "blue";
+	document.getElementById("h1").style.fontSize = "75px";
+	document.getElementById("h1").innerHTML = "Hello World!";
+
+}
+
+function Goodbye() {
+	document.getElementById("h1").style.background = "green";
+	document.getElementById("h1").innerHTML = "Goodbye";
+	document.getElementById("h1").style.fontsize = "20px";
+}
+
+function fortnite() {
+	var user = document.getElementById("username").value;
+	var pass = document.getElementById("password").value;
+ if (user =="" || pass =="") { 
+ 	document.getElementById("p1").innerHTML = "Plz fill our fields";
+ 	return false;
+  } else if (user =="royce" && pass =="pass") {
+  	document.getElementById("p1").innerHTML = "OH YAA";
+  	return false;
+  }
+}
+
+function apex() {
+	switch(document.getElementById("textBox").value) {
+		case "1":
+		document.getElementById("textBox").value = "this is some random text because you tpyed in 1 sdfhfhdfkjdsbfkjdsbfjkbdkfbf";
+		break;
+		case "2":
+		document.getElementById("p2").innerHTML = "You typed in number 2 so the innerHTML of the p tag has changed"
+		break;
+		default:
+		document.getElementById("textBox").value = "IF you typed anything else other than 1 or 2, than youre seeing tihs defauly case";
+		break;	
+	}
+return false;
+} 
+
+function phone() {
+	for (i = 0 ; i <= 10 ; i++ ) {
+		console.log("This is a loop that was looped 30 times in the console" + i);
+	}
+}
+

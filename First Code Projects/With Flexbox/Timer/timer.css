@@ -1,0 +1,92 @@
+body, html {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-size: 100%;
+    background:#3D3838;
+    font-family:"Droid-Serif", "Arial Black";
+    text-align: center;
+    height: 100%;
+}
+
+#bodyz {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 98%;
+    font-size: 2em;
+}
+
+#DAYZ {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-self: center;
+    height:100%;
+    width:15%;
+}
+
+#HOURZ {
+     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-self: center;
+    height:100%;
+    width:15%;
+}
+
+#MINUTEZ {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-self: center;
+    height:100%;
+    width:15%;
+}
+
+#SECONDZ {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-self: center;
+    height:100%;
+    width:15%;
+}
+
+button {
+    background:none;
+    border:none;
+    font-size: 2em;
+}
+
+input {
+    text-align: center;
+    border:none;
+    background: gray;
+    color:white;
+    height:50%;
+    border-radius: 10%; 
+    font-size: 3em;
+}
+
+#buttonz {
+    margin-top:-5%;
+}
+
+#start {
+    border:3px solid orangered;
+    padding:10px 20px;
+    border-radius: 20%;
+    background:orangered;
+    color:white;
+}
+
+@media only screen and (max-width: 1000px) {
+    body {
+        font-size: 50%;
+    }
+    #buttonz {
+        margin-top:-10%;
+    }
+    
+  }

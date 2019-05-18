@@ -1,0 +1,144 @@
+* {
+    margin:0px;
+    padding:0;
+    box-sizing: border-box;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color:black;
+}
+
+.background {
+    background-image: url("index\ background.JPG");
+    height: 100%; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.navBar {
+    display:flex;
+    justify-content: space-around;
+    align-items:center;
+    min-height: 10vh;   
+    background-color:#5d4954;
+}
+
+.online {
+    color:white;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-size: 1.2em;
+}
+
+.online h4:hover {
+    color:yellow;
+}
+
+.navLinks {
+    display: flex;
+    justify-content: space-around;
+    width:50%;
+    font-size: 1.3em;
+}
+
+.navLinks a{
+    color:rgb(226,236,226);
+    letter-spacing: 4px;
+    font-weight: bold;
+    font-size: 0.9em; 
+}
+
+.navLinks a:hover {
+    color:goldenrod;
+}
+
+.mainContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 80vh;
+    text-align: center;
+}
+
+.mainHeader {
+    margin:15px 0px;
+}
+
+.border {
+    border: 4px white solid;
+    padding: 90px 60px;
+}
+
+.main {
+    color:white;
+    font-size:1.2em;
+}
+.footerContainer {
+    display:flex;
+    justify-content: space-around;
+    align-items:center;
+    min-height: 10vh; 
+    color:white;  
+}
+
+.footerLinks {
+    display: flex;
+    justify-content: space-around;
+    width:75%;
+    color:white;
+}
+
+.footerLinks a {
+    color:white;
+}
+
+.burger {
+    display:none;
+    cursor: pointer;
+}
+.burger div {
+    width:25px;
+    height:3px;
+    background-color:rgb(226,226,226);
+    margin:5px; 
+    cursor: pointer;
+}
+
+@media screen and (max-width: 700px) {
+    body {
+        overflow-x:hidden;
+    }
+    
+    .navLinks {
+        position: absolute;
+        right:0px;
+        top:10vh;
+        height:90vh;
+        background-color: #5d4954;
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+        width:50%;
+        transform: translatex(100%);
+    }
+
+    .navLinks li {
+        opacity:0;
+    }
+
+    .burger {
+        display:block;
+    } 
+
+    .border {
+        border:none;
+    }
+
+  }
+

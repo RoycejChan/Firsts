@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Newr Calculator</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="newerCalculator.css">
+</head>
+<body>
+	<h1> Basic Calculator</h1>
+	<div>
+		<input type="text" READONLY id="result">
+		<br>
+		<input type="button"class="b"onclick="c()"value = "C">
+		<input type="button"class="b"onclick="integer()"value = "+/-">
+		<input type="button"class="b"onclick="insert('%')"value = "%">
+		<input type="button"class="btn" id="divide"onclick="insert('/')"value = "/" class="op">
+		<br>
+		<input type="button"class="button"onclick="insert(7)"value = "7">
+		<input type="button"class="button"onclick="insert(8)"value = "8">
+		<input type="button"class="button"onclick="insert(9)"value = "9">
+		<input type="button"class="btn"onclick="insert('*')"value = "x" class="op">
+		<br>
+		<input type="button"class="button"onclick="insert(4)"value = "4">
+		<input type="button"class="button"onclick="insert(5)"value = "5">
+		<input type="button"class="button"onclick="insert(6)"value = "6">
+		<input type="button"class="btn"onclick="insert('-')"value = "-" class="op">
+		<br>
+		<input type="button"class="button"onclick="insert(1)"value = "1">
+		<input type="button"class="button"onclick="insert(2)"value = "2">
+		<input type="button"class="button"onclick="insert(3)"value = "3">
+		<input type="button"class="btn"onclick="insert('+')"value = "+" class="op">
+		<br>
+		<input type="button"class="button"onclick="insert(0)"value = "0" id="zero">
+		<input type="button"class="button"onclick="insert('.')"value = ".">
+		<input type="button"class="btn"onclick="equal()"value = "=" class="op">
+	</div>	
+	<script type="text/javascript" src="newerCalculator.js"></script>
+</body>
+</html>

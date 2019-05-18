@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>DVD logo</title>
+	<meta charset="utf-8">
+</head>
+<body>
+	<style>
+		* {
+			padding:0;
+			margin:0;
+		}
+
+		canvas {
+			background:black;
+		}
+	</style>
+	<canvas id="myCanvas" width="1536" height="750"></canvas>
+	<img id="dvd" width="100" height="100"
+src="dvd.PNG" alt="dvd" style= "display:none">
+	<script>
+		
+		
+var dvd = document.getElementById("dvd");		
+var ballX = 50;
+var ballY = 50;
+var ballSpeedX = 5;
+var ballSpeedY = 3;
+
+
+window.onload = function() {
+canvas = document.getElementById("myCanvas");
+ctx = canvas.getContext("2d");
+var framesPerSecond = 30;
+setInterval(function() {
+		moveEverything();
+		drawEverything();
+}, 1000/framesPerSecond); 
+	
+}
+function moveEverything() {
+	ballX = ballX + ballSpeedX;
+	ballY = ballY + ballSpeedY;
+	if ( ballX > canvas.width-410) { 
+		ballSpeedX = -ballSpeedX;  //changes ball direction if hits the wall	
+	}
+
+	if (ballX < -35) {
+		ballSpeedX = -ballSpeedX
+	}
+	if ( ballY > canvas.height-275) { 
+		ballSpeedY = -ballSpeedY;  //changes ball direction if hits the wall	
+	}
+
+	if (ballY < -45) {
+		ballSpeedY = -ballSpeedY
+	}
+}
+
+function drawEverything() {
+ctx.drawImage(dvd, ballX, ballY);
+}		
+	</script>
+</body>
+</html>

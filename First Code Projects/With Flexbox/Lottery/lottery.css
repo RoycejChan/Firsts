@@ -1,0 +1,83 @@
+body, html {
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+	font-family: Arial, Roboto, san-serif;
+	font-size: 100%;
+}
+
+#header {
+	display:flex;
+	justify-content: center;
+	font-size: 2em;
+	color:black;
+	width:100%;
+}
+
+#amount {
+	display:flex;
+	justify-content: center;
+	font-size: 1.5em;
+	text-decoration: underline;
+}
+
+#amount-price {
+	display:flex;
+	justify-content: center;
+	font-size: 2em;
+	color: gold;
+}
+
+#roll {
+	display: flex;
+	justify-content: center;
+}
+
+#roll input {
+	font-size: 1.5em;
+	border: 4px solid black;
+	background: #010101;
+  	border: none;
+  	color: white;
+  	width:20%;
+  	padding: 20px 50px;
+ 	text-align: center;
+  	text-decoration: none;
+  	border-radius: 5%;
+}
+
+#footer {
+	display: flex;
+	justify-content: center;
+}
+
+#footer h2 {
+	font-size: 2em;
+}
+
+#target {
+	display: flex;
+	justify-content: center;
+	font-size: 2em;
+}
+
+#choice {
+	display: flex;
+	justify-content: center;
+	font-size: 2em;
+}
+
+@media screen and (min-width: 200px) {
+	
+	body {
+	font-size: 90%;
+	}
+}
+
+@media screen and (max-width: 1080px) {
+    body
+    {
+      font-size: 80%;
+    }
+}
+

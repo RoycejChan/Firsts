@@ -1,0 +1,131 @@
+body {
+	padding:0;
+	margin:0;
+	font-family: san-serif, Helvetica, Verdana, Arial;
+}
+
+a {
+	text-decoration:none;
+	color: white;
+}
+
+a:hover {
+	color:yellow;
+	font-size:17px;
+}
+
+.f {
+	position: absolute;
+	right: 85%;
+}
+.fl {
+	position: absolute;
+	right: 65%;
+}
+.fli {
+	position: absolute;
+	right: 44%;
+}
+.flin {
+	position: absolute;
+	right: 25%;
+}
+.flink {
+	position: absolute;
+	right: 10%;
+}
+
+footer {
+	text-align: center;
+	padding: 30px;
+	bottom: 20%;
+	position: relative;
+	top: 200px;
+	font-size: 16px;
+}
+
+h1 {
+	position: relative;
+	top: 0px;
+	text-align: center;
+	color:white;
+	right: 20px;
+	border-bottom:3px solid yellow;
+	font-size: 40px;
+	width:20px;
+}
+h3 {
+	color: white;
+	text-align:left;
+	position:relative;
+	top:10px;
+}
+form {
+	text-align:center;
+	position:relative;
+	top:100px;
+	padding: 10px 70px ;
+	background: black;
+	width: 300px;
+	left: 550px;
+	border-radius:4%;
+	}
+
+form input[type = "text"],[type = "password"]{
+	border:0;
+	background:none;
+	margin:20px auto;
+	text-align:left;
+	border-bottom:2px solid yellow;
+	padding:10px;
+	position: relative;
+	width:100%;
+	font-size:16px;
+	color:white;
+	top:-10px;
+}
+form input[type ="text"]:hover {
+	font-size:16.5px;
+}
+form input[type ="password"]:hover {
+	font-size:16.5px;
+}
+
+form input[type = "submit"] {
+	border:0;
+	background:none;
+	margin:auto;
+	top: 0px;
+	left: 80px;
+	border:2px solid yellow;
+	border-radius: 5%;
+	padding:10px;
+	position: relative;
+	width:50%;
+	font-size:16px;
+	color:white;
+}
+
+form input[type = "submit"]:hover {
+	font-size:18px;
+	color: red;
+}
+
+form input[type = "submit"]:active {
+	font-size:18px;
+	color: red;
+	background-color:yellow;
+}
+
+p {
+	background:none;
+	margin:7px 0px;
+	top: -45px;
+	left: -100px;
+	padding:0px;
+	position: relative;
+	width:90%;
+	font-size:16px;
+	color:gray;
+}
+

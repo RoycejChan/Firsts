@@ -1,0 +1,79 @@
+body {
+	margin:0;
+	padding:0;
+	background: #302D2D;
+	font-size: 2rem;
+	text-align: center;
+	position:relative;
+	top:-40px;
+}
+
+h1 {
+	background: white; 
+}
+
+#result {
+	padding:30px;
+	margin:10px;
+	font-size:1.3rem;
+	border:1px black solid;
+	border-radius:5%;
+	width:20%;
+	font-weight: 900;
+}
+.button {
+	padding:30px;
+	margin:5px;
+	font-size: 1.3rem;
+	border:1px black solid;
+	border-radius:10%;
+	cursor: pointer;
+	background:gray;
+	color: white;
+	font-weight: 900;
+}
+
+#zero {
+	width:11%;
+	position:relative;
+	left:-5px;
+	cursor: pointer;
+}
+
+.op {
+	color:orange;
+	cursor: pointer;
+}
+
+.btn {
+	padding:30px;
+	margin:5px;
+	font-size: 1.3rem;
+	border:1px black solid;
+	border-radius:10%;
+	cursor: pointer;
+	background:orange;
+	color:white;
+	font-weight: 900;
+}
+
+.b {
+	padding:30px;
+	margin:5px;
+	font-size: 1.3rem;
+	border:1px black solid;
+	border-radius:10%;
+	cursor: pointer;
+	width:5%;
+	position:relative;
+	left:-3px;
+	font-weight: 900;
+}
+
+
+#divide {
+	width:5%;
+	position: relative;
+	left: -2px;
+	font-weight: 900;
+}

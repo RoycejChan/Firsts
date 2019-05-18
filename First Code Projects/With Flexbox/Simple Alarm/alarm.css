@@ -1,0 +1,102 @@
+body, html {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-size:100%;
+    text-align: center;
+    background-image: linear-gradient(to right,#4568DC,#B06AB3);
+}
+
+h1, h2, h4 {
+    font-family: 'Bungee Shade';
+}
+header {
+    display:flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+header h1 {
+    font-size:2em;
+    margin-top:-20x;
+}
+
+#message {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    font-size:1.5em;
+    font-weight: bold;
+    font-family: 'Bungee Shade';
+    margin-top:-20px;
+}
+
+#message h4,span {
+    margin: 0 auto;
+}
+
+#time-display {
+    font-size: 1.5em;
+    font-weight:bold;
+    font-family: "Bungee Shade";
+}
+#imgsection {
+    display:flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+}
+
+#img {
+    display:block;
+    margin: 0 auto;
+    border: 2px black solid;
+    box-shadow: 2px 2px 7px 2px;
+}
+
+#options {
+    display:flex;
+    text-align: center;
+    justify-content: space-evenly;
+    align-content: center;
+    margin-top:40px;
+    margin-bottom:20px;
+    margin-left:400px;
+    margin-right:450px;
+    font-weight: bold;
+}
+
+#partyTimeButton {
+    background:yellow;
+    padding:20px 80px;
+    font-size: 1em;
+    font-family: 'Bungee Shade';
+}
+@media only screen and (max-width: 750px) {
+   
+   body {
+       font-size:85%;
+   }
+    #options {
+      display:inline-flex;
+      justify-content: center;
+      flex-direction: column;
+      margin: 0 auto;
+      margin-top:10px
+    }
+
+    #message {
+        margin-top:-20px;
+    }
+
+    #partyTimeButton {
+        background:yellow;
+        padding:10px 40px;
+        font-size: 1em;    
+  }
+  #img {
+     height:250px;
+     width:350px;
+  }
+} 

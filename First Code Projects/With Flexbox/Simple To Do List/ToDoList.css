@@ -1,0 +1,62 @@
+body {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+
+#header {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin: 20px auto;
+    font-size:  1.5em;
+}
+
+#main {
+    display: flex;
+    justify-content: center;
+}
+
+#main button, input {
+    font-size: 1.3em;
+    border-radius: 5%;
+    padding:15px;
+}
+
+#main input {
+    width: 35%;
+}
+#main button {
+    margin-left: -53px; 
+    padding:25px 30px;
+    border-radius: 50%;
+    border: green solid 2px;
+    background: white; 
+}
+
+#section {
+    display: flex;
+    justify-content: center;
+    font-size: 1.5em;
+}
+
+#section ol {
+    font-size: 1.5em;
+    width:45%;
+}
+
+#section li {
+    border-left: 15px solid orange;
+    border-bottom: 1px solid gray;
+    line-height: 2.3;
+    text-indent: 2%;
+    margin-bottom: 5px;
+    overflow: hidden;
+}
+
+#section li:hover {
+    opacity: 0.1;
+    transition: 0.5s;
+}

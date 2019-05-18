@@ -1,0 +1,145 @@
+body, html {
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+	background: white;
+	font-family: Verdana, Helvetica, Time New Roman, Times, , Arial, Sans-serif;
+  font-size:  100%;
+}
+
+.nav-bar a {
+	text-decoration: none;
+  color:black;
+  padding:20px;
+  width: 25%;
+  text-align: center;
+}
+
+.nav-bar a:hover {
+	text-decoration: none; 
+  background-color: lightgray;
+}
+
+.nav-bar {
+  background-color: #ffffff;
+  width:100%;
+}
+
+.nav-links {
+  display:flex;
+  justify-content: space-around;
+  font-size: 1.4em; 
+  max-width: 100%; 
+}
+
+
+.header {
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: black;
+  height:auto;
+}
+
+.header-pic {
+  width:100%;
+  margin:auto;
+}
+
+.header-pic img {
+  display:block;
+  width:100%;
+  min-width:500px;
+  max-width: 1000px;
+  margin:auto;
+  margin-top:30px;
+}
+
+.header-desc {
+  align-self: center;
+  justify-content: center;
+  font-size: 1.5em;
+  color:white;
+  width:100%;
+  display:flex;
+}
+
+.header-desc p {
+
+  margin: auto;
+  margin-top:20px;
+  margin-bottom:50px;
+  max-width:450px;
+  min-width: 400px;
+}
+
+.sectionaboutme{
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: white;
+  height:auto;
+}
+
+
+.Aboutme {
+  font-size: 2.8em;
+  width:100%;
+  display:flex;
+  color:black; 
+  justify-content: center;
+}
+
+.Aboutme-desc {
+  margin: auto;
+  margin-top:-20px;
+  margin-bottom:15px;
+  max-width:450px;
+  min-width: 400px;
+  font-size: 1.4em;
+  font-weight: bolder;
+  line-height: 1.6;
+}
+
+.footer {
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: darkblue;
+  height:auto;
+}
+
+
+.footer-links {
+  font-size: 1.4em;
+  width:100%;
+  display:flex;
+  color:black; 
+  justify-content: space-around;
+}
+
+.footer-links a {
+  margin: auto;
+  font-size: 0.85em;
+  text-decoration: none;
+  color:white;
+  padding:25px;
+}
+
+.footer-links a:hover {
+  color:gray;
+}
+
+@media screen and (min-width: 500px) {
+    body
+    {
+      font-size: 75%;
+    }
+}
+
+@media screen and (min-width: 700px) {
+    body
+    {
+      font-size: 100%;
+    }
+}

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+    <html>
+        <head>
+            <meta charset="UTF-8">
+            <title>Timer!</title>
+            <link rel="stylesheet" href="timer.css">
+            <!--First code project with no help from the internet, but no flex box due to lazy characteristics of mine-->
+        </head>
+        <body>
+
+
+            <!-- 
+                This Timer works for the most part, there are still bugs in it
+                It is best to have all numbers != 0 for it to 100% work, lol;
+                The only bug I know of so far is if second.value > 0 || 1 and everything else is == 0;
+                but there are probably more bugs in this project, this is only practice.
+            -->
+
+
+            <div id="bodyz">
+                 <div id="DAYZ">  
+                        <p class="left">DAY</p>
+                        <input type="text" READONLY id="day" value="0">
+                        <button  id="plus"onclick="addday()">+</button>
+                        <button  id="sub"onclick="subday()">-</button>
+                 </div>
+                            <div id="HOURZ">
+                                <p class="left-center">HOUR</p>
+                                <input type="text" READONLY id="hour" value="0">
+                                <button  id="plus2"onclick="addhour()">+</button>
+                                <button  id="sub2"onclick="subhour()">-</button>
+                            </div>
+                                    <div id="MINUTEZ">
+                                            <p class="right-center">MINUTE</p>
+                                            <input type="text" READONLY id="minute" value="0">
+                                            <button id="plus3"onclick="addminute()">+</button> 
+                                            <button  id="sub3"onclick="subminute()">-</button>
+                                    </div>       
+                                            <div id="SECONDZ">
+                                                    <p class="right">SECOND</p>
+                                                    <input type="text" READONLY id="second" value="1">
+                                                    <button   id="plus4"onclick="addsecond()">+</button>
+                                                    <button  id="sub4"onclick="subsecond()">-</button>
+                                            </div>
+ 
+            </div>
+                         <div id="buttonz">
+                            <button id="start"onclick="start()">Start Timer</button>
+                        </div>    
+           <script src="timer.js"></script>
+        </body>
+    </html>
+
+    
+   

@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>BasicCal</title>
+	<style>
+		body {
+			margin:0;
+			padding:0;
+			font-size: 2rem;
+			font-family: sans-serif;
+		}
+
+		input {
+			font-size:2rem;		
+			margin: 10px;
+			padding:5px;
+			border:2px black solid;
+			border-radius: 5%;
+			width: 50%;
+		}
+
+		select {
+				font-size: 2rem;
+				margin: 10px;	
+				border:2px black solid;
+				border-radius: 5%;	
+		}
+		button {
+			font-size: 2rem;
+			margin-left: 20px;
+		}
+
+		label {
+			margin-left: 20px;
+		}
+	</style>
+</head>
+<body>
+
+	<label for="button">
+	Value 1:</label>
+	<input type="text" placeholder="Enter Number" class="button" id="valueOne"/>
+	<br>
+	<label for="button">
+	Value 2:</label>
+	<input type="text" placeholder="Enter Number" class="button" id="valueTwo"/>
+	<br>
+	<select id="op">
+		<option value="multiply">*  Multiply</option>
+		<option value="add">+  Add</option>
+		<option value="subtract">-  Subtract</option>  
+		<option value="divide">/  Divide</option>
+		<option value="remainder">%  Remainder</option>
+	</select>
+	<br>
+	<button onclick="result()"/>=</button>
+	<input type="text" READONLY placeholder="Result..." id="result">
+
+
+
+	<script type="text/javascript">
+function result() {			
+
+var one = parseInt(document.getElementById("valueOne").value);
+var two = parseInt(document.getElementById("valueTwo").value);
+var operator = document.getElementById("op").value;
+	
+	if (operator === "add") {
+		document.getElementById("result").value = one + two;
+	} else if (operator === "remainder") {
+		document.getElementById("result").value = one % two;
+	} else if (operator === "divide") {
+		document.getElementById("result").value = one / two;
+	} else if (operator === "subtract") {
+		document.getElementById("result").value = one - two;
+	}  else if (operator === "multiply") {
+		document.getElementById("result").value = one * two;
+	}
+}		   
+</script>
+</body>
+</html>

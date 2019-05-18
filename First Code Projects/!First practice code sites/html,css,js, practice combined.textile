@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Hub</title>
+	<meta charset="utf-8">
+</head>
+   <style>
+   	 body {
+   	 	font-size: 2rem;
+   	 	padding:0;
+   	 	margin:0;
+   	 }
+   	 nav {
+   	 	text-decoration: none;
+   	 	color: black;
+   	 	position:fixed; /*Keeps it on screen while scrolling*/
+   	 	background: black;
+   	 	width:100%;
+   	 	text-align:center;
+   	 	transform: translateY(-10%);
+   	 	
+   	 }
+   	 a {
+   	 	font-size:0.5em;
+   	 }
+   	 p {
+   	 	font-size:1em;
+   	 	position:relative;
+   	 	top:50px;
+   	 }
+   	 button {
+   	 	position:relative;
+   	 	top:300px;
+   	 }
+   </style>	
+   <script>
+/*if (true) {
+	let y = "hello";
+	let z = "bye";
+   console.log(y);
+}
+var z = "boi";
+console.log(z);
+
+if (true) {
+  let a = "Royce";
+  let b = "BYe";
+  console.log("Hello");
+  console.log(b);
+ }
+ var i;
+ 	for (i = 0; i < 10; i++) {
+ 		console.log("HEllo world!");
+ 	}
+
+ var firstPerson = {
+ 	First: "John",
+ 	Last: "Doe",
+ 	Occupation: "Single"
+ 			};
+ 	firstPerson.hairColor = "Brown";
+ 	console.log(firstPerson.First);
+ 	console.log(firstPerson.hairColor);
+ 	console.log("This person's name is" + " " + firstPerson.First + " " +firstPerson.Last);
+ 	*/
+   </script>
+<body>
+	<nav>
+		<a href="#">Link</a>
+		<a href="#">Link</a>
+		<a href="#">Link</a>
+		<a href="#">Links</a>
+		<a href="#">Link</a>
+	</nav>
+	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+	tempor incididunt ut labore et dolore magna aliqua. Ut
+    </p>
+   <p id="p1"></p> 	
+</body>
+</html>

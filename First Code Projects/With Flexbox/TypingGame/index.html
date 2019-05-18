@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>TypingGame</title>
+  <link rel="stylesheet" href="index.css">
+</head>
+<body id="body">
+  <header id="header">
+    <h1 id="header-1">TypingGame</h1>
+  </header>
+    <div id="main-body">
+        <!-- user interface-->
+        <main>
+            <div id="instruct">
+                <p>Type the Given Word in 
+                    <span id="seconds">5</span> Seconds</p>
+            </div>
+                <div id="word-display">  
+                    <h2>hello</h2>
+                </div>
+                    <div id="user">
+                        <input type="text"  placeholder="Start typing..." autofocus id="user-input">
+                    </div> 
+                          <div id="gameover">                      
+                             <h4 id="message">Game Over!</h4>
+                          </div>
+        </main>
+            <!-- Time & Score Columns -->
+            <div id="timer">
+                <h3>Time Left:
+                <span id="time">0</span>
+                </h3>
+            </div>
+                <div id="user-Score">
+                    <h3>Score:
+                    <span id="score">0</span>
+                    </h3>
+                </div>    
+    </div>
+
+        <!-- Instructions -->
+            <div id="footer">
+                <div id="instructions-title">
+                     <h5>Instructions</h5>
+                 </div>
+                    <div id="instructions-message">
+                        <p>Type each word in the given amount of seconds to score. To play again, just type the current word. Your score
+                            will reset</p>
+                    </div>        
+            </div>
+  <script src="index.js"></script>
+</body>
+
+</html>
